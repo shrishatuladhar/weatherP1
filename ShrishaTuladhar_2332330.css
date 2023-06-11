@@ -54,8 +54,24 @@ h1, h3{
     line-height: 2;
     font-weight: 800;
   }
- 
-
+  .brand {
+    margin-bottom: -140px;
+  }
+  
+  h4 {
+    margin-bottom: -460px;
+  }
+  
+  #previousButton:hover {
+    background-color: #202022; /* Change the background color */
+    color: rgb(250, 247, 247); /* Change the text color */
+  }
+  #previousButton {
+    font-size: 1.1em;
+    padding: 10px 20px;
+  }
+  
+  
 
 .city-time,
  .temp,
@@ -163,7 +179,7 @@ h1, h3{
 @media screen and (max-width: 800px) {
     .panel, .container{
         position: relative;
-        width: 100%;
+        width: 80%;
         top: initial;
     }  
 }
@@ -177,3 +193,4 @@ h1, h3{
     min-height: 40em;
    }
 }
+

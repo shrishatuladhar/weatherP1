@@ -114,3 +114,10 @@ citiesList.addEventListener('click', (e) => {
       console.log(err);
     });
 });
+
+//new codes
+const previousButton = document.querySelector('#previousButton');
+
+previousButton.addEventListener('click', () => {
+  window.location.href = 'http://localhost/prototype2/shrisha2332330.php';
+});
